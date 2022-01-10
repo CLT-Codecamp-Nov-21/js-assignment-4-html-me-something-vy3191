@@ -56,7 +56,7 @@ describe ("Grading Tests: ", function () {
 
    it("HTML includes external CSS script", function() {
       let linkElement = container.getElementsByTagName("Link");
-      expect(linkElement.item(0).href.includes('styles.css')).toBeTrue();
+      expect(linkElement.item(1).href.includes('styles.css')).toBeTrue();
    })
 
    it("CSS body sets margin and display", function() {
