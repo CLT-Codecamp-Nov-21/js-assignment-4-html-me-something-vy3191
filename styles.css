@@ -1,1 +1,101 @@
 /* Write your CSS here! */
+
+body {
+    margin: 8px;
+    display: block;
+}
+
+main, footer {
+    margin: 30px;
+}
+
+.funParagraph {
+    text-align: left;
+    margin-bottom: 30px;
+    color: green;
+
+}
+
+footer {
+    background-color: lightyellow;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 16px;
+}
+
+#testP{
+    font-weight: bold;
+    color: green;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+}
+
+hr {
+    margin: 20px auto;
+    color: #ccc;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.main {
+    font-size: 24px;
+}
+
+.sub {
+    font-size: 16px;
+}
+
+#container {
+    padding: 0 15px;
+}
+
+
+
+
+
+aside {
+    float:left;
+    padding: 0 20px 20px 0;
+}
+
+aside > image {
+    width: 120px;
+    height: auto;
+}
+
+/****************
+  Nav bar 
+*****************/
+
+nav {
+    width: 100%;
+    min-height: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+nav > ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
